@@ -119,6 +119,8 @@ rais = (
     .withColumn("vl_rem_novembro_sc", f.regexp_replace("vl_rem_novembro_sc", ',', '.').cast('double'))
 )
 
+#teste github
+
 (
     rais
     .coalesce(50)
